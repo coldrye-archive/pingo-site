@@ -1,0 +1,13 @@
+{
+  "name": "pingo-site",
+  "private": true,
+  "devDependencies": {
+    "marked": ">=0.3.5",
+    "shelljs": ">=0.5.3",
+    "underscore": ">=1.8.3"
+  },
+  "globalDevDependencies": {
+    "bower": "^1.5.3",
+    "wintersmith": "^2.2.1"
+  }
+}

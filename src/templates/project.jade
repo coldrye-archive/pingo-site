@@ -1,0 +1,35 @@
+extends layout
+
+
+block aside-page
+    aside.page
+        ul
+            li.github
+                - var components = page.url.split('/'); page.name = components[components.length - 2];
+                a(href='https://github.com/coldrye-es/' + page.name)
+                    img(src=contents.images['github-32x32.png'].url)
+                    span Github
+
+            if page.metadata.docs.public
+                li
+                    a(href='doc/public/')
+                        img(src=contents.images['docs-32x32.png'].url)
+                        span Public API
+
+            if page.metadata.docs.dev
+                li.docs
+                    a.docs(href='doc/dev/')
+                        img(src=contents.images['docs-32x32.png'].url)
+                        span Developer API
+
+            if page.metadata.cover
+
+                li
+                    a(href='cover/')
+                        img(src=contents.images['cover-32x32.png'].url)
+                        span Coverage Report
+
+block main-page
+
+    != page.html
+

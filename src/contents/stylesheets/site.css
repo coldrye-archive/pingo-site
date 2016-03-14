@@ -1,0 +1,134 @@
+header,
+footer,
+section,
+aside,
+main
+{
+    display: block;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    margin: 0;
+    background-color: #fefefe;
+}
+
+header.page,
+main.page
+{
+    width: 80%;
+    margin: auto;
+}
+
+header.page
+{
+    border-bottom: 1px solid #000;
+}
+
+header.page nav.global
+{
+    text-align: right;
+}
+
+header.page nav.global a
+{
+    margin-left: 2em;
+    font-size: .8em;
+}
+
+header.page div.logo
+{
+    height: 6em;
+}
+
+header.page nav.site
+{
+}
+
+header.page nav.site a
+{
+    margin-right: 2em;
+    font-size: 1.4em;
+}
+
+aside.page ul
+{
+    list-style: none;
+}
+
+a,
+a:hover,
+a:active,
+a:visited
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a img
+{
+    border: 0;
+}
+
+div.logo
+{
+    padding-top: 1em;
+}
+
+div.logo a span
+{
+    margin-left: 16px;
+    font-size: 4em;
+}
+
+main.page aside ul li a
+{
+    display: block;
+    height: 32px;
+    text-align: top;
+}
+
+main.page aside
+{
+    float: right;
+    margin-left: 4em;
+}
+
+main.page aside ul li
+{
+    height: 48px;
+}
+
+main.page aside ul li a img
+{
+    float: left;
+}
+
+main.page aside ul li a span
+{
+    font-size: 1.2em;
+    float: left;
+    margin-left: .5em;
+    padding-top: .3em;
+}
+
+main.page p a:before
+{
+    content: '\2192';
+}
+
+code
+{
+    font-style: italic;
+}
+
+pre.prettyprint
+{
+    font-size: 10pt;
+    border: 0;
+    background-color: #efefef;
+}
+

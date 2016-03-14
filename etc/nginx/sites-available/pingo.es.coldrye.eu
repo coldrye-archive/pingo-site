@@ -1,0 +1,13 @@
+server {
+        listen 109.239.58.218:80;
+        root /var/www/sites/pingo.es.coldrye.eu;
+        index index.html;
+        server_name pingo.es.coldrye.eu;
+        location / {
+                try_files $uri $uri/ =404;
+        }
+        location = /robots.txt {
+                alias /var/www/robots.txt;
+        }
+}
+

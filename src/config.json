@@ -1,0 +1,21 @@
+{
+  "output": "../dist",
+  "locals": {
+    "url": "http://pingo.es.coldrye.eu/",
+    "description": "Suite of decorators",
+    "title": "pingo",
+    "keywords": [
+      "babel", "es6", "decorator", "node.js", "browser"
+    ]
+  },
+  "require": {
+    "_": "underscore",
+    "util": "util",
+    "marked": "marked"
+  },
+  "plugins": [
+  ],
+  "jade": {
+    "pretty": true
+  }
+}

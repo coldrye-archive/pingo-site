@@ -1,0 +1,15 @@
+extends layout
+
+block head-css
+    link(rel='stylesheet', type='text/css', href='/javascript/prettify-min/prettify.min.css')
+
+block head-js
+    script(type='text/javascript', src='/javascript/jquery/dist/jquery.min.js')
+    script(type='text/javascript', src='/javascript/prettify-min/prettify.min.js')
+    
+
+block main-page
+    != page.html
+
+    script(type='text/javascript') $(document).ready(function () {prettyPrint();});
+
