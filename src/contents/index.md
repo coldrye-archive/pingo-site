@@ -13,6 +13,11 @@ Furthermore it provides both a class factory and a method factory for declaring
 same signature constructors and methods.
 
 
+## pingo
+
+pingo builds on pingo-common and provides you with a suite of decorators.
+
+
 ## Usage
 
 For now you will have to refer to the API documentation and the sources.
